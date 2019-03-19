@@ -7,7 +7,7 @@ class Anagram
   end
 
   def match(range)
-    if range.class == arr
+    if range.class == Array
       @sth.split("").each do
         |x| range.each do
           |y| if y.length == x.length && y.split("").include?(x)
