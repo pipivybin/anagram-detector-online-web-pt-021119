@@ -7,12 +7,11 @@ class Anagram
   end
 
   def match(range)
-    if range.class == Array
-
-
-    else
-      
-
+        range.each do
+        |x| if x.split("").sort! == @testing_word.split("").sort!
+          x
+        end
+      end
   end
 
 
