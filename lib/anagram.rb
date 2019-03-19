@@ -1,6 +1,6 @@
 class Anagram
 
-  attr_accessor :
+  attr_accessor 
 
   def initialize(sth)
 
