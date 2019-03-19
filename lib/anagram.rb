@@ -9,7 +9,7 @@ class Anagram
   def match(range)
     arr = range.split(" ")
     @sth.split("").each do
-      |x| range.each do
+      |x| arr.each do
         |y| if y.length == x.length && y.split("").include?(x)
           y
           end
