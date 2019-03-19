@@ -1,6 +1,8 @@
+require 'pry'
+
 class Anagram
 
-  attr_accessor :match
+  attr_accessor
 
   def initialize(testing_word)
     @testing_word = testing_word
@@ -8,6 +10,7 @@ class Anagram
 
   def match(range)
         range.each do
+          binding.pry
         |x| if x.split("").sort! == @testing_word.split("").sort!
           x
         end
