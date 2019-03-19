@@ -5,5 +5,5 @@ class Anagram
   end
 
 
-  
+
 end
