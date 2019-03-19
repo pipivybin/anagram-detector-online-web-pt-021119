@@ -1,12 +1,12 @@
 class Anagram
 
-  attr_accessor 
+  attr_accessor
 
   def initialize(sth)
 
   end
 
-  def self.match
+  def self.match(range)
 
   end
 
