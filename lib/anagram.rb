@@ -3,10 +3,10 @@ class Anagram
   attr_accessor
 
   def initialize(sth)
-
+    @sth = sth
   end
 
-  def self.match(range)
+  def match(range)
 
   end
 
